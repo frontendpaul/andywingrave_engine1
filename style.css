@@ -1,0 +1,86 @@
+:root {
+  --bg: url(https://i.imgur.com/YK8QEQM.png);
+  --input: url(https://i.imgur.com/MXfrbS4.png);
+  --output: url(https://i.imgur.com/kvqAJvl.png);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  width: 8534px;
+  height: 3168px;
+  background: var(--bg);
+}
+
+.input {
+  width: 312px;
+  height: 312px;  
+  position: absolute;
+  background: var(--input) center center;
+}
+
+.i1 {
+  top: 2089px;
+  left: 249px;
+  z-index: -1;
+}
+
+.i2 {
+  top: 2089px;
+  left: 873px;
+  z-index: -1;
+}
+
+.output {
+  width: 362px;
+  height: 362px;
+  border-radius: 50%;  
+  position: absolute;
+  background: var(--output) center center;
+}
+
+.o1 {
+  top: 2150px;
+  left: 3680px;
+  z-index: -1;
+}
+
+.o2 {
+  top: 2150px;
+  left: 4400px;
+  z-index: -1;
+}
+
+.o3 {
+  top: 2107px;
+  left: 6664px;
+  z-index: -1;
+}
+
+.o4 {
+  top: 2070px;
+  left: 6398px;
+  z-index: -2;
+}
+
+.o5 {
+  top: 2082px;
+  left: 6934px;
+  z-index: -2;
+}
+
+.o6 {
+  top: 1829px;
+  left: 6832px;
+  z-index: -3 ;
+}
+ 
+.o7 {
+  top: 1827px;
+  left: 6557px;
+  z-index: -4 ;
+}
